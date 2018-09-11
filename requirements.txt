@@ -1,0 +1,8 @@
+jupyter
+jupyterlab
+pandas
+scipy
+scikit-learn
+matplotlib
+seaborn
+scikit-optimize

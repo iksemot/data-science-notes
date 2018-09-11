@@ -1,0 +1,12 @@
+version: '3'
+services:
+  jupyterlab:
+    build: .
+    ports:
+    - 8888:8888
+    volumes:
+    - ./README.md:/root/data-science-notes/README.md
+    - ./examples:/root/data-science-notes/examples
+    - ./docs:/root/data-science-notes/docs
+    # - ./jupyter-config:/root/.jupyter
+    container_name: jupyterlab
