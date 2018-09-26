@@ -12,4 +12,4 @@ Documents
 --------------------------------------------------------------------------------
 
 + [The Data Science Lifecycle: Data Modelling](./docs/data-modelling.md)
-+ [Datasets Collections](./docs/datasets.md)
++ [Resources](./docs/resources.md)
