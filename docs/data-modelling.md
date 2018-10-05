@@ -86,6 +86,12 @@ Data Cleaning
     df.drop(columns=['TicketNumber', 'TicketPrefix'], inplace=True)
     ```
 
+- Remove columns with missing data
+
+    ```python
+    df = df.dropna(axis=0)
+    ```
+
 - Remove rows with missing data
 
     ```python
@@ -630,7 +636,18 @@ TODO
 Model Performance Evaluation
 ================================================================================
 
-TODO
+## Regression Evaluation
+
+- Mean Absolute Error (MAE)
+
+    MAE calculates the average of absolute predictions offset/error
+
+    ```python
+    from sklearn.metrics import mean_absolute_error
+
+    mean_absolute_error(y_test, pred)
+    ```
+
 
 Other TODO
 ================================================================================

@@ -14,3 +14,10 @@ Competitions
 + **[crowdAI](https://www.crowdai.org)**
 + **[DrivenData](https://www.drivendata.org)**
 + **[CrowdANALYTX](https://www.crowdanalytix.com/community)**
+
+
+Online Courses
+--------------------------------------------------------------------------------
+
++ **[Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course/)** by Google
++ **[Machine Learning](https://www.kaggle.com/learn/machine-learning)** by Kaggle
