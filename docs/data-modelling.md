@@ -97,7 +97,6 @@ Data Cleaning
 - Setting explicit value
 
     ```python
-    # Explicit value
     df.loc[df['PassengerId'] == 1044, 'Fare'] = 0
     ```
 
@@ -332,6 +331,18 @@ Model Selection
 
     plt.scatter(y_test, pred)
     est.score(X_test, y_test)
+    ```
+
+- XGBoost Regressor
+
+    https://xgboost.readthedocs.io/en/latest/python/python_api.html
+
+    **Pros**: TODO
+
+    **Cons**: TODO
+
+    ```python
+    
     ```
     
 
